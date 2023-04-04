@@ -19,6 +19,9 @@ public class Program {
 		Scanner sc = new Scanner(System.in);
 		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 		
+		//o level esta em um enumm,aceitando somente os valores JUNIOR,MID_LEVEL,SENIOR;
+	
+		
 		System.out.print("Enter department's name: ");
 		String departamentName = sc.next();
 		System.out.println("Enter worker data");
